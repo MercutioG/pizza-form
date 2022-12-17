@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Order Form</title>
+    
+    <meta name="description" content="Welcome to the brand new make your own pizza place. This is where you can create the pizza of your dreams, and we make money off of you.">
+    <meta name="author" content="Mercutio Geant">
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="icon" href="./pizza.ico" type="image/x-icon">
+
+    <meta property="og:image" content="https://imageio.forbes.com/specials-images/imageserve/5f974a4f5210e336503abf92/0x0.jpg?format=jpg&width=1200">
+    <meta property="og:description" content="Enjoy fresh pizzas served daily, instore or at your doorstep!">
+    <meta property="og:title" content="Pizza Order Form">
+</head>
+<body>
+    <script src="./functions.js"></script>
+    <form>
+        <fieldset class="fieldset">
+            <legend>User Information</legend>
+            <p>
+                <ul>
+                    <li>
+                        <label for="username">Username:</label>
+                        <input type="text" name="username"><br>
+                    </li>
+                    <li>   
+                        <label for="password">Password:</label>
+                        <input type="text" name="password">
+                    </li>
+                </ul>
+            </p>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>Drink Selection</legend>
+            <p>
+                <ul>
+                    <li>
+                        <input type="radio" id="milkshake" name="drinkRadio">
+                        <label for="milkshake">Milkshake $2.50</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="softDrink" name="drinkRadio">
+                        <label for="softDrink">Soft Drink $2.00</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="lemonade" name="drinkRadio">
+                        <label for="lemonade">Lemonade $1.00</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="water" name="drinkRadio">
+                        <label for="water">Water $0.00</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="lemonade" name="drinkRadio">
+                        <label for="none">None</label><br>
+                    </li>
+                </ul>
+            </p>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>Pizza Size</legend>
+            <h3>All base pizzas are standard cheese pizzas.</h3>
+            <p>
+                <ul>
+                    <li>
+                        <input type="radio" id="pizza16" name="sizeRadio">
+                        <label for="pizza16">16" $7.99</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="pizza14" name="sizeRadio">
+                        <label for="pizza14">14" $6.99</label><br>
+                    </li>
+                    <li>
+                        <input type="radio" id="pizza12" name="sizeRadio">
+                        <label for="pizza12">12" $5.99</label><br>
+                    </li>
+                </ul>
+            </p>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>Pizza Toppings</legend>
+            <p>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="pepperoni" name="toppingCheck">
+                        <label for="pepperoni">Pepperoni $0.75</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="sausage" name="toppingCheck">
+                        <label for="sausage">Sausage $0.75</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="bacon" name="toppingCheck">
+                        <label for="bacon">Bacon $0.75</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="ham" name="toppingCheck">
+                        <label for="ham">Ham $0.75</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="chicken" name="toppingCheck">
+                        <label for="chicken">Chicken $0.75</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="bellPepper" name="toppingCheck">
+                        <label for="bellPepper">Bell Pepper $0.50</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="olive" name="toppingCheck">
+                        <label for="olive">Olives $0.50</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="mushrooms" name="toppingCheck">
+                        <label for="mushrooms">Mushrooms $0.50</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="onion" name="toppingCheck">
+                        <label for="onion">Onions $0.50</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="pineapple" name="toppingCheck">
+                        <label for="pineapple">Pineapples $0.50</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="jalapeno" name="toppingCheck">
+                        <label for="jalapeno">Jalape&#241;os $0.50</label>
+                    </li>
+                </ul>
+            </p>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>Crust Options</legend>
+            <ul>
+                <li>
+                    <input type="radio" id="stuffedCrust" name="crustRadio">
+                    <label for="stuffedCrust">Stuffed Crust $1.00</label>
+                </li>
+                <li>
+                    <input type="radio" id="deepCrust" name="crustRadio">
+                    <label for="deepCrust">Deep Dish $0.50</label>
+                </li>
+                <li>
+                    <input type="radio" id="thinCrust" name="crustRadio">
+                    <label for="thinCrust">Thin Crust $0.20</label>
+                </li>
+                <li>
+                    <input type="radio" id="crust" name="crustRadio">
+                    <label for="crust">Normal Crust $0.00</label>
+                </li>
+            </ul>
+        </fieldset>
+        <fieldset class="fieldset">
+            <legend>Special Instructions</legend>
+            <p>
+                <ul>
+                    <li>
+                        <input type="checkbox" id="gluten" name="extras">
+                        <label for="gluten">Gluten-Free $0.50</label>
+                    </li>
+                    <li>
+                        <input type="checkbox" id="vegan" name="extras">
+                        <label for="vegan">Vegan cheese $0.50</label>
+                    </li><hr>
+                    <li>
+                        <label for="instructions">Special Instructions</label><br>
+                        <textarea id="instructions" name="instructions" rows="5" cols="50" placeholder="Write instructions here"></textarea>
+                    </li>
+                </ul>
+                <button class="orderButton" type="button" onclick="finishOrder();"></button>
+                <button class="resetButton" type="reset"></button>
+            </p>
+        </fieldset><br>
+    </form>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: #c24e01;
+}
+
+label,legend,ul,h3{
+    color: black;
+}
+
+.fieldset{
+    border-color: aliceblue;
+    background-color: rgb(212, 156, 0);
+}
+
+.orderButton{
+    background: url("./orderButton.png");
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    border-style: hidden;
+}
+
+.resetButton{
+    background: url("./resetButton.png");
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    border-style: hidden;
+}
